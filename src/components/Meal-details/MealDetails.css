@@ -1,0 +1,11 @@
+.img{
+    width: 300px;
+    margin-right: 100px;
+}
+.details-container{
+    display: flex;
+    justify-content: center;
+}
+.recipi{
+    font-weight: 500;
+}
