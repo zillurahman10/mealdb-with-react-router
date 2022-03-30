@@ -4,7 +4,7 @@ import './Meal.css'
 
 const Meal = (props) => {
     console.log(props);
-    const { strMealThumb, strMeal } = props.meal
+    const { strMealThumb, strMeal, idMeal } = props.meal
     return (
         <div className='card'>
             <div>
@@ -12,7 +12,7 @@ const Meal = (props) => {
             </div>
             <div>
                 <h3 className='food-text'>{strMeal}</h3>
-                <Link to="MealDetails">See Details</Link>
+                <Link to={`/mealDetails/${idMeal}`}>See Details</Link>
             </div>
         </div>
     );
