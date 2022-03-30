@@ -1,0 +1,24 @@
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    margin: 0 40px;
+    /* background-color: darkgray; */
+    /* padding: 0 30px; */
+    /* width: 100%; */
+}
+.links{
+    display: flex;
+    align-items: center;
+}
+.link {
+    margin-right: 10px;
+    text-decoration: none;
+    color: black;
+    font-weight: 500;
+}
+/* .inside-navbar{
+    padding: 0 20px;
+} */
+.logo{
+    font-family: cursive;
+}

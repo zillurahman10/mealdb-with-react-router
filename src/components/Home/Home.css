@@ -1,0 +1,10 @@
+.home{
+    background-color: lightcyan;
+    height: 600px;
+}
+.home-text{
+    display: flex;
+    padding-top: 200px;
+    justify-content: center;
+    font-family: cursive;
+}

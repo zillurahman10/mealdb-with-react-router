@@ -1,0 +1,7 @@
+.meals-container{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+.food-text{
+    font-family: cursive;
+}

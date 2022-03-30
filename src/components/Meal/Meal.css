@@ -1,0 +1,10 @@
+.img{
+    width: 300px;
+}
+.card{
+    border: 2px solid gray;
+    margin: 20px;
+}
+.food-text{
+    font-family: cursive;
+}
